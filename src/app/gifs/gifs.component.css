@@ -1,0 +1,14 @@
+.gifs{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: .5rem;
+}
+.gif{
+    flex: 1 1 25rem;
+}
+.gif img{
+    width: 100%;
+    object-fit: cover;
+    height: 25rem;
+}
